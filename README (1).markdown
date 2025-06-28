@@ -71,39 +71,10 @@ Refer to `app/README.md` for instructions on building and running the app.
 - **Training History**: Loss and accuracy plots (`visualizations/training_history.png`).
 - **Confusion Matrix**: Per-class performance (`visualizations/confusion_matrix.png`).
 
-## Repository Structure
-```
-cereal-crop-disease-detection/
-├── app/                          # Mobile app source code
-│   ├── README.md
-│   └── screenshots/
-├── models/                       # Model and labels
-│   ├── cereal_crop_disease_model_quantized.tflite
-│   └── labels.txt
-├── notebooks/                    # Jupyter notebook
-│   └── eis-project.ipynb
-├── scripts/                      # Inference script
-│   └── predict.py
-├── visualizations/               # Training visualizations
-│   ├── training_history.png
-│   └── confusion_matrix.png
-├── README.md
-├── requirements.txt
-├── LICENSE
-└── .gitignore
-```
 
-## Contributing
-Contributions are welcome! Please:
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature-name`).
-3. Commit changes (`git commit -m "Add feature"`).
-4. Submit a pull request.
 
-Report issues or suggest features via GitHub Issues.
+
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for details.
 
-## Contact
-For questions or collaboration, open an issue on GitHub or contact [your-email@example.com].
